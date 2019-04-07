@@ -1,1 +1,1 @@
-#Rui Xu, xurui
+This is my assignment-1 submission!
