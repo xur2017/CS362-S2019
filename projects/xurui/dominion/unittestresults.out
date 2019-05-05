@@ -1,0 +1,177 @@
+ 
+cardtest1.c:
+** cardtest1 begin **
+initial deck cards:  1  1  4  4  4  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  
+present hand cards:  4  4  1  4  4  4  4  
+handCount: before = 5, after = 7
+PASS
+deckCount: before = 5, after = 2
+PASS
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 1
+PASS
+returned value: retVal = 0
+PASS
+** cardtest1 end **
+File 'playSmithy.c'
+Lines executed:100.00% of 7
+Creating 'playSmithy.c.gcov'
+
+cardtest2.c:
+** cardtest2 begin **
+initial deck cards:  1  1  4  4  5  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  4  
+present hand cards:  4  4  1  4  4  5  4  
+handCount: before = 5, after = 7
+PASS
+deckCount: before = 5, after = 3
+PASS
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 0
+PASS
+returned value: retVal = 0
+PASS
+** cardtest2 end **
+File 'playAdventurer.c'
+Lines executed:66.67% of 18
+Creating 'playAdventurer.c.gcov'
+
+cardtest3.c:
+** cardtest3 begin **
+initial deck cards:  1  1  4  4  4  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  4  4  
+present hand cards:  4  4  1  4  4  
+handCount: before = 5, after = 5
+PASS
+deckCount: before = 5, after = 4
+PASS
+numActions: before = 1, after = 3
+PASS
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 1
+PASS
+returned value: retVal = 0
+PASS
+** cardtest3 end **
+File 'playVillage.c'
+Lines executed:100.00% of 6
+Creating 'playVillage.c.gcov'
+
+cardtest4.c:
+** cardtest4 begin **
+initial deck cards:  1  1  4  4  4  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  
+present hand cards:  1  4  1  4  4  4  4  4  
+handCount: before = 5, after = 8
+PASS
+deckCount: before = 5, after = 1
+PASS
+numBuys: before = 1, after = 2
+PASS
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 1
+PASS
+returned value: retVal = 0
+PASS
+** cardtest4 end **
+File 'playCouncilRoom.c'
+Lines executed:100.00% of 11
+Creating 'playCouncilRoom.c.gcov'
+
+unittest1.c:
+** unittest1 begin **
+initial deck cards:  1  1  4  4  4  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  4  
+present hand cards:  4  4  1  4  4  4  
+handCount: before = 5, after = 6
+FAIL
+deckCount: before = 5, after = 3
+FAIL
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 1
+PASS
+returned value: retVal = 0
+PASS
+** unittest1 end **
+File 'playSmithyRefactor.c'
+Lines executed:100.00% of 7
+Creating 'playSmithyRefactor.c.gcov'
+
+unittest2.c:
+** unittest2 begin **
+initial deck cards:  1  1  4  4  5  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  
+present hand cards:  4  4  1  4  4  4  4  
+handCount: before = 5, after = 7
+PASS
+deckCount: before = 5, after = 2
+FAIL
+discardCount: before = 0, after = 1
+FAIL
+playedCardCount: before = 0, after = 0
+PASS
+returned value: retVal = 0
+PASS
+** unittest2 end **
+File 'playAdventurerRefactor.c'
+Lines executed:94.44% of 18
+Creating 'playAdventurerRefactor.c.gcov'
+
+unittest3.c:
+** unittest3 begin **
+initial deck cards:  1  1  4  4  4  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  4  4  
+present hand cards:  4  4  1  4  4  
+handCount: before = 5, after = 5
+PASS
+deckCount: before = 5, after = 4
+PASS
+numActions: before = 1, after = 3
+PASS
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+** unittest3 end **
+File 'playVillageRefactor.c'
+Lines executed:100.00% of 6
+Creating 'playVillageRefactor.c.gcov'
+
+unittest4.c:
+** unittest4 begin **
+initial deck cards:  1  1  4  4  4  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  
+present hand cards:  4  4  1  4  4  4  4  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+numBuys: before = 1, after = 2
+PASS
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+** unittest4 end **
+File 'playCouncilRoomRefactor.c'
+Lines executed:100.00% of 11
+Creating 'playCouncilRoomRefactor.c.gcov'
+
