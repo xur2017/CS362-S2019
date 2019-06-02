@@ -1,0 +1,174 @@
+ 
+randomtestadventurer.c:
+** randomtestadventurer begin **
+6 5 5 4 6 
+handCount: before = 5, after = 7
+PASS
+deckCount: before = 5, after = 2
+FAIL
+returned value: retVal = 0
+PASS
+
+At least a gold card is revealed and discarded. Iterations end.
+** randomtestadventurer end **
+File 'playAdventurerRefactor.c'
+Lines executed:94.44% of 18
+Creating 'playAdventurerRefactor.c.gcov'
+
+randomtestcard1.c:
+** randomtestcard1 begin **
+iteration 0:  
+deck cards (before):  2  1  5  3  5  
+hand cards (before):  4  6  2  4  2  
+deck cards ( after):  2  1  
+hand cards ( after):  5  6  2  4  2  5  3  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 1:  
+deck cards (before):  6  5  1  1  2  
+hand cards (before):  3  6  1  5  1  
+deck cards ( after):  6  5  
+hand cards ( after):  1  6  1  5  1  2  1  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 2:  
+deck cards (before):  6  6  6  2  1  
+hand cards (before):  4  5  1  1  1  
+deck cards ( after):  6  6  
+hand cards ( after):  6  5  1  1  1  1  2  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 3:  
+deck cards (before):  2  2  6  3  2  
+hand cards (before):  2  2  4  6  5  
+deck cards ( after):  2  2  
+hand cards ( after):  6  2  4  6  5  2  3  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 4:  
+deck cards (before):  2  1  5  6  3  
+hand cards (before):  5  6  5  3  5  
+deck cards ( after):  2  1  
+hand cards ( after):  5  6  5  3  5  3  6  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 5:  
+deck cards (before):  3  2  5  6  5  
+hand cards (before):  1  2  1  5  6  
+deck cards ( after):  3  2  
+hand cards ( after):  5  2  1  5  6  5  6  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 6:  
+deck cards (before):  3  6  5  5  2  
+hand cards (before):  4  4  3  5  6  
+deck cards ( after):  3  6  
+hand cards ( after):  5  4  3  5  6  2  5  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 7:  
+deck cards (before):  3  5  6  6  3  
+hand cards (before):  1  1  1  3  6  
+deck cards ( after):  3  5  
+hand cards ( after):  6  1  1  3  6  3  6  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 8:  
+deck cards (before):  1  6  4  6  3  
+hand cards (before):  5  6  5  3  2  
+deck cards ( after):  1  6  
+hand cards ( after):  4  6  5  3  2  3  6  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+iteration 9:  
+deck cards (before):  3  5  6  2  5  
+hand cards (before):  5  6  3  4  3  
+deck cards ( after):  3  5  
+hand cards ( after):  6  6  3  4  3  5  2  
+played cards:  
+handCount: before = 5, after = 7
+FAIL
+deckCount: before = 5, after = 2
+FAIL
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+
+** randomtestcard1 end **
+File 'playSmithyRefactor.c'
+Lines executed:100.00% of 7
+Creating 'playSmithyRefactor.c.gcov'
+

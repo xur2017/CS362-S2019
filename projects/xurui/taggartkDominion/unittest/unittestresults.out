@@ -1,0 +1,43 @@
+ 
+unittest1.c:
+** unittest1 begin **
+initial deck cards:  1  1  4  4  4  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  
+present hand cards:  4  4  1  4  4  4  4  
+handCount: before = 5, after = 7
+PASS
+deckCount: before = 5, after = 2
+PASS
+discardCount: before = 0, after = 0
+PASS
+playedCardCount: before = 0, after = 0
+FAIL
+returned value: retVal = 0
+PASS
+** unittest1 end **
+File 'playSmithyRefactor.c'
+Lines executed:100.00% of 7
+Creating 'playSmithyRefactor.c.gcov'
+
+unittest2.c:
+** unittest2 begin **
+initial deck cards:  1  1  4  4  6  
+initial hand cards:  4  4  1  4  4  
+present deck cards:  1  1  
+present hand cards:  4  4  1  4  4  4  4  
+handCount: before = 5, after = 7
+PASS
+deckCount: before = 5, after = 2
+FAIL
+discardCount: before = 0, after = 1
+FAIL
+playedCardCount: before = 0, after = 0
+PASS
+returned value: retVal = 0
+PASS
+** unittest2 end **
+File 'playAdventurerRefactor.c'
+Lines executed:94.44% of 18
+Creating 'playAdventurerRefactor.c.gcov'
+
